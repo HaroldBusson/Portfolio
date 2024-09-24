@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1><title>Mon Portfolio</title>
+        <link rel="style.css" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav><center>SERVICES PORTFOLIO DEVIS CONTACT</center></nav><br>
+            <nav><center>
+                    <a href="#services">SERVICES</a>
+                    <a href="#etudes">PORTFOLIO</a>
+                    <a href="#devis">DEVIS</a>
+                    <a href="#contact">CONTACT</a>
+                    <a id="link" href="#"><span id="burger"></span></a>
+                    <ul class=""list unstyled">
+                        <li><a href="maitlo:harolddev75@gmail.com" target="_blank">Em@il</a></li>
+                        <li><a href="www.linkedin.com/in/harold-busson-81279b206/" target="_blank">Linkedin</a></li>
+                        <li><a href="https://github.com/haroldbusson/" target="_blank">Github</a></li>
+                    </ul>
+                </center>
+            </nav><br/>
+    </header>
+    <img scr ="placeholder"alt="Mybigface" />
+    <main>
+        <article>
+            <h3>My first release!</h3>
+            <img src="https://placeholder" alt="My 1 release width="200" height="200">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec,
+                 ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, 
+                 orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, 
+                 consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. 
+            </p>
+        </article>
+        <article></article>
+            <h3>My second release!</h3>
+            <img src="https://placeholder" alt="My 2 release width="200" height="200">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec,
+                 ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, 
+                 orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, 
+                 consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. 
+            </p>
+        </article>
+        <article></article>
+            <h3>My ultimate release!</h3>
+            <img src="https://placeholder" alt="My ultimate release width="200" height="200">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec,
+                 ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, 
+                 orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, 
+                 consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. 
+            </p>
+        </article>
+    </main>
+<footer>
+    <form action="/ma-page-de-traitement" method="post">
+        <ul>
+          <li>
+            <label for="name">Nom&nbsp;:</label>
+            <input type="text" id="name" name="user_name" />
+          </li>
+          <li>
+            <label for="mail">E-mail&nbsp;:</label>
+            <input type="email" id="mail" name="user_mail" />
+          </li>
+          <li>
+            <label for="msg">Message&nbsp;:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </li>
+        </ul>
+      </form>
+</footer>
+</body>
+</html>
