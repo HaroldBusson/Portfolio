@@ -51,7 +51,8 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.45150560224
   header{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:first baseline
+    list-style-type: none;
   }
 
   .ul{
@@ -63,12 +64,23 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.45150560224
 
    .list_unstyled{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    list-style-type: none;
+    text-decoration: none;
+
+    margin-left: 13%;
    }
 
-   .nav-item a {
+   .nav-item {
     display: inline-block;
     padding: 10px 15px;
     text-decoration: none;
+    list-style-type: none;
     color: white;
+     }
+
+     main{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
      }
