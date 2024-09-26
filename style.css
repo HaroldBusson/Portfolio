@@ -51,7 +51,6 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.45150560224
   header{
     display: flex;
     justify-content: space-between;
-    align-items:first baseline
     list-style-type: none;
   }
 
@@ -59,22 +58,18 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.45150560224
     list-style-type: none;
     text-decoration-line: none ;
     display: flex;
-    justify-content: center;
    }
 
    .list_unstyled{
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    text-decoration: none;
-
-    margin-left: 13%;
+   gap: 10px;
    }
 
    .nav-item {
-    display: inline-block;
+    display: flex;
     padding: 10px 15px;
-    text-decoration: none;
     list-style-type: none;
     color: white;
      }
